@@ -5,10 +5,6 @@ class Pokemon extends Model {}
 
 Pokemon.init(
   {
-    id: {
-      type: DataTypes.NUMBER,
-      allowNull: false,
-    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
