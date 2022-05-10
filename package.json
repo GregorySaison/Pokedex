@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/GregorySaison/Pokedex/issues"
   },
-  "homepage": "https://github.com/GregorySaison/Pokedex#readme"
+  "homepage": "https://github.com/GregorySaison/Pokedex#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
 }
