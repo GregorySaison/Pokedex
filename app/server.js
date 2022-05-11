@@ -6,6 +6,8 @@ const router = require("./router");
 const server = express();
 const port = process.env.PORT ?? 3000;
 
+server.use(express.json());
+server.use(express.static("./public"));
 server.use(router);
 server.use(handleError);
 

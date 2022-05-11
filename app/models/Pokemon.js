@@ -9,6 +9,14 @@ Pokemon.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    illustration: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    type: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize, // connexion à la BDD
